@@ -45,3 +45,24 @@ adding SHAP-based interpretability analysis not present in the original paper.
 # 출처 논문 나열
 **Sources:** YAN 2022, PORNEA 2023, HUYNH 2024, JIONG 2025,
 SINGH 2019, WPU 2025, WuXN, WU 2018, LIM 2024
+
+## Setup
+
+# 1. 클론
+```bash
+git clone https://github.com/lgunhee428-svg/BNNT-TC-Prediction.git
+cd BN-TC-ML-Prediction
+```
+
+# 2. 패키지 설치
+```bash
+pip install -r requirements.txt
+```
+
+# 3. 노트북 실행
+```bash
+jupyter notebook notebooks/03_ML_models.ipynb
+```
+
+# 또는 Colab에서 바로 실행 (설치 불필요)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](Colab링크)
