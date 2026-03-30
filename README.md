@@ -66,3 +66,44 @@ jupyter notebook notebooks/03_ML_models.ipynb
 
 # 또는 Colab에서 바로 실행 (설치 불필요)
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](Colab링크)
+
+## Project Structure
+
+```
+BN-TC-ML-Prediction/
+├── notebooks/
+│   ├── 01_data_collection.ipynb    Materials Project API 수집
+│   ├── 02_EDA.ipynb                탐색적 데이터 분석
+│   └── 03_ML_models.ipynb         ← 핵심: RFR / GBDT / XGBoost
+├── src/
+│   ├── features.py                 피처 엔지니어링 모듈
+│   └── models.py                   모델 학습 유틸
+├── data/
+│   └── processed/
+│       └── dataset_with_mp_features.csv
+├── results/                       그래프, 성능 지표
+│   ├── parity_plot.png
+│   ├── model_comparison.png
+│   └── feature_importance.png
+├── requirements.txt
+└── README.md
+```
+
+## References
+
+# 재현 논문 (필수)
+**[1]** Reproduced from:
+*Application of machine learning in predicting the thermal conductivity
+of single-filler polymer composites*,
+Int. J. Heat Mass Transfer, 2024
+
+# 데이터 출처 논문들
+**[2]** YAN et al. *Epoxy-assisted ball milling of BN*, Composites A, 2022
+**[3]** PORNEA et al. *Ternary filler systems*, ACS Omega, 2023
+**[4]** HUYNH et al. *PAA-BNNT/PVA composites*, ACS Omega, 2024
+**[5]** JIONG et al. *Electrostatically engineered TIMs*, Adv. Comp., 2025
+... (총 9개)
+
+# Materials Project
+[![Materials Project](https://img.shields.io/badge/Data-Materials_Project-blue)](https://materialsproject.org)
+Data partially sourced from the Materials Project (https://materialsproject.org)
