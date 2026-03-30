@@ -51,7 +51,7 @@ SINGH 2019, WPU 2025, WuXN, WU 2018, LIM 2024
 # 1. 클론
 ```bash
 git clone https://github.com/lgunhee428-svg/BNNT-TC-Prediction.git
-cd BN-TC-ML-Prediction
+cd BN-TC-Prediction
 ```
 
 # 2. 패키지 설치
